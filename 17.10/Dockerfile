@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Download phpMyAdmin
 RUN mkdir -p /tmp/g16 && \
-    wget https://files.phpmyadmin.net/phpMyAdmin/4.8.1/phpMyAdmin-4.8.1-all-languages.zip -O /tmp/g16/phpmyadmin.tar.gz
+    wget https://files.phpmyadmin.net/phpMyAdmin/4.8.1/phpMyAdmin-4.8.1-all-languages.tar.gz -O /tmp/g16/phpmyadmin.tar.gz
 
 # Add init script
 RUN mkdir -p /etc/g16
