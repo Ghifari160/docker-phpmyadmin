@@ -11,9 +11,9 @@ RUN mkdir -p /tmp/g16 && \
 
 # Add init script
 RUN mkdir -p /etc/g16
-ADD init.sh /etc/g16/init.sh
-RUN chown root:root /etc/g16/init.sh && chmod 711 /etc/g16/init.sh
+ADD init.sh /etc/g16/pma_init.sh
+RUN chown root:root /etc/g16/pma_init.sh && chmod 711 /etc/g16/pma_init.sh
 
 VOLUME ["/var/www"]
 
-ENTRYPOINT ["/etc/g16/init.sh"]
+ENTRYPOINT ["/etc/g16/pma_init.sh"]
