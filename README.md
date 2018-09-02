@@ -57,10 +57,10 @@ docker run --link=mysql -d ghifari160/phpmyadmin
 ```
 
 ## Tags ##
-| Tags                      | Ubuntu Version | Size |
-|---------------------------|----------------|------|
+| Tags                      | Ubuntu Version | Size              |
+|---------------------------|----------------|:-----------------:|
 | `16.04` `xenial`          | 16.04          | [![](https://images.microbadger.com/badges/image/ghifari160/phpmyadmin:16.04.svg)](https://microbadger.com/images/ghifari160/phpmyadmin:16.04 "Get your own image badge on microbadger.com")|
-| `17.10` `artful`          | 17.10          | [![](https://images.microbadger.com/badges/image/ghifari160/phpmyadmin:17.10.svg)](https://microbadger.com/images/ghifari160/phpmyadmin:17.10 "Get your own image badge on microbadger.com")|
+| `17.10` `artful`          | 17.10          | **NOT SUPPORTED** |
 | `latest` `18.04` `bionic` | 18.04          |[![](https://images.microbadger.com/badges/image/ghifari160/phpmyadmin.svg)](https://microbadger.com/images/ghifari160/phpmyadmin "Get your own image badge on microbadger.com")|
 
 [docker]: https://www.docker.com
