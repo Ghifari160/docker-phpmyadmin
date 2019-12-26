@@ -58,6 +58,7 @@ docker run --link=mysql -d ghifari160/phpmyadmin
 
 ## Tags ##
 All deprecated tags will be removed at the next update.
+
 | Tags                      | Ubuntu Version | Size              |
 |---------------------------|----------------|:-----------------:|
 | `v4` `v4.9.3`             | 18.04          |[![](https://images.microbadger.com/badges/image/ghifari160/phpmyadmin:v4.9.3.svg)](https://microbadger.com/images/ghifari160/phpmyadmin:v4.9.3 "Get your own image badge on microbadger.com")|
