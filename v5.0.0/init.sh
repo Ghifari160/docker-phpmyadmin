@@ -31,8 +31,8 @@ function pma_install()
   echo "=   Installing phpMyAdmin    ="
   echo "=============================="
   cd /var/www && tar -xvzf /tmp/g16/phpmyadmin.tar.gz
-  cp -a /var/www/phpMyAdmin-4.9.2-all-languages/. /var/www/html/
-  rm -rf /var/www/phpMyAdmin-4.9.2-all-languages
+  cp -a /var/www/phpMyAdmin-5.0.0-all-languages/. /var/www/html/
+  rm -rf /var/www/phpMyAdmin-5.0.0-all-languages
 }
 
 if [ "$G16_MACOS" = "yes" ]; then
